@@ -3,6 +3,8 @@ import Navbar from './Navbar.js';
 import Header from './Header.js';
 import About from './About.js';
 import Resume from './Resume.js';
+import Skills from './Skills.js';
+import Skills75  from './Skills/Skills75';
 import Footer from './Footer.js';
 import PicSeperator from './PicSeperator.js';
 import Contact from './Contact.js';
@@ -10,18 +12,65 @@ import github from "./img/github.png";
 import letter from "./img/letter.png";
 import linkedin from "./img/linkedin.png";
 import { Container, Row, Col } from 'reactstrap';
+import './css/Skills.css';
+import './css/Resume.css';
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render() {
     return (
-      <body>
+      <div>
         <Navbar/>
         <Header/>
-        <About />
-        <PicSeperator/>
-        <Resume />
+        <About/>
+        <PicSeperator />
+          
+          <Row>
+          <Col className="work-column"lg="6" md="12">
+            <h2 className="mb-5 work-title">Work Experience</h2>
+        <Resume
+          resumeTitle="Store Employee / Flying Tiger"
+              resumeTime="November 2020 - March 2020"
+              resumeDescription="I was responsible for the store from opening to closing hours. Payment, service, stocking up and cleaning at the end of the day. " />
+          <Resume
+              resumeTitle="Shop Assistant / Ahlsell"
+              resumeTime="May 2019 - August 2020"
+              resumeDescription="Responsible for the operation of business, making sure that every customer customers feels seen and
+               helping them find goods or possibly order to store, as well as
+              stock replenishment." />
+            <Resume
+              resumeTitle="Warehouse Worker / Iduna AB"
+              resumeTime="November 2018 - January 2019"
+              resumeDescription="Worked for staffing company Lernia at E-commerce for Guldfynd, Albrekts Guld & Hallbergs
+Guld. My duties were picking and packing orders." />
+            <Resume
+              resumeTitle="Cashier / Gekås AB"
+              resumeTime=" September 2015 - September 2017"
+              resumeDescription="As a Cashier at Gekås my head responsibility was in the cashier line. I handled the payment for the store items, checked so the customers had a good experience in the warehouse." />
+          </Col>
+          <Col lg="6" md="12">
+            <h2 className="mb-5 skills-title">Skills</h2>
+            <Skills
+              skillsName="HTML" />
+            <Skills
+              skillsName="CSS" />
+            <Skills
+              skillsName="Bootstrap 4" />
+            <Skills75
+              skillsName75="JavaScript"
+            />
+            <Skills75
+              skillsName75="React"
+            />
+            <Skills75
+              skillsName75="C#"
+            />
+            <Skills
+              skillsName="SQL" />
+          </Col>
+        </Row>
+        <PicSeperator />
         <Row className="row-contact">
           <Col lg="4">
             <Contact
@@ -51,7 +100,7 @@ export class Home extends Component {
         </Row>
           
         <Footer />
-      </body>
+      </div>
     );
   }
 }

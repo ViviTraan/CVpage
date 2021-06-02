@@ -1,0 +1,24 @@
+﻿#About {
+padding-bottom: 0;
+}
+
+.about-container {
+max-width:50%;
+}
+
+.about-title {
+font-family: 'Mr Bedfort', cursive;
+font-size: 3rem;
+}
+
+.about-text {
+line-height: 1.75rem;
+}
+
+.about-signature {
+float:right;
+}
+
+about-image {
+width: 10px;
+}

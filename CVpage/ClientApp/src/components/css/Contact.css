@@ -1,6 +1,12 @@
 ﻿.contact-container {
+    margin-top:5%;
 text-align:center;
-padding: 6% 0% 5%;
+padding: 6% 10% 10%;
+}
+
+.feature-title {
+    margin-top: 5%;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .feature-text {

@@ -1,15 +1,15 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
+import './css/Resume.css';
+
 
 export default class Resume extends Component {
   render() {
-    return (<section class="py-5" id="Resume">
-      <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h2>Engaging Background Images</h2>
-            <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-            <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
-          </div>
+    return (<section className="py-2">
+      <div className="container resume-container" id="resume">
+        <div className="row">
+        <h6 className="text-dark">{this.props.resumeTitle} ~ {this.props.resumeTime } </h6>
+          <p>{this.props.resumeDescription}</p>
+          <hr/>
         </div>
       </div>
     </section>);

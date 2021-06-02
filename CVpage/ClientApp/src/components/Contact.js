@@ -1,13 +1,10 @@
-﻿import React, { Component } from 'react';
-import github from "./img/github.png";
-import letter from "./img/letter.png";
-import linkedin from "./img/linkedin.png";
+import React, { Component } from 'react';
 import "./css/Contact.css";
 
 
 export default class Contact extends Component {
   render() {
-    return (<section className="white-section" id="Contact">
+    return (<section className="white-section" id="contact">
       <div className="container-fluid contact-container">
         <div className="feature-box">
           <a href={this.props.link} target="_blank">

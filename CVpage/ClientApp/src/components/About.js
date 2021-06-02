@@ -1,15 +1,29 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
+import "./css/About.css";
+import "./css/Fonts.css";
+import about from './img/about-signature.png';
+
 
 export default class About extends Component {
   render() {
     return (
-      <section class="py-5" id="About">
-        <div class="container my-5">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <h2>Full Width Backgrounds</h2>
-              <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-              <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+      <section className="py-5" id="about">
+
+        <div className="container mt-5 about-container">
+          <div className="row">
+            <div className="col-lg-12">
+              <h2 className="about-title">Hi! My name is Vivi..</h2>
+              <p className="about-text">..and I'm currently studying "System development - Object Oriented Programming", other than being a fancy word I'd say it helps me manage my ache for always wanting to challenge myself in life.
+              <br />  
+                <br />  
+              Growing up I always loved keeping busy, whether it was in school or in a job. I concluded that I as a person needed to feel some sort of connection to constantly evolving. 
+              So, I worked and traveled a lot while searching for my path in life.
+              <br /> 
+              When neither work nor traveling was fulfilling me, I knew it was time to dig deeper. So, I asked myself, when have I felt being challenged ? Well, I remembered when I was younger, I used to love designing my blog, different styles every week, trying to figure out how to code and the sense of satisfaction when I successfully did it, indescribable.
+              <br />
+                <br />  
+                So here I am, finally found my path.</p>
+              <div className="about-signature"><img className="about-image"src={about}/></div>
             </div>
           </div>
         </div>
@@ -17,3 +31,4 @@ export default class About extends Component {
     );
   }
 }
+
