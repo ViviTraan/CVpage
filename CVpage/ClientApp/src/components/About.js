@@ -3,6 +3,7 @@ import "./css/About.css";
 import "./css/Fonts.css";
 import about from './img/about-signature.png';
 import sunflower from './img/sunflower.png'
+import profile from './img/profile-pic.png';
 
 
 export default class About extends Component {
@@ -10,9 +11,13 @@ export default class About extends Component {
     return (
       <section className="py-5" id="about">
 
-        <div className="container mt-5 about-container">
+        <div className="container about-container">
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-4 text-center profile-container">
+              <img className="img-fluid rounded-circle mb-4" src={profile} alt="..." style={{ width: "200px" }} />
+              <h1 className="text-black fs-3 fw-bolder">Vivi Tran</h1>
+              <p className="text-black-50 mb-0">Upcoming Full Stack Developer</p></div>
+            <div className="col-lg-8">
               <h2 className="about-title">Hi! My name is Vivi..</h2>
               <p className="about-text">..and I'm currently studying "System development - Object Oriented Programming", other than being a fancy word I'd say it helps me manage my ache for always wanting to challenge myself in life.
               <br />  

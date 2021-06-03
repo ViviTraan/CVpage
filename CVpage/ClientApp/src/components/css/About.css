@@ -1,12 +1,13 @@
 ﻿@import url(//fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap);
 
+
 #About {
 padding-bottom: 0;
 }
 
 .about-container {
-    max-width: 50%;
-    margin-bottom:10%;
+    max-width: 80%;
+    margin:8% 5% 5%;
 }
 
 .about-title {
@@ -22,6 +23,7 @@ line-height: 1.75rem;
 float:right;
 }
 
+
 about-image {
 width: 10px;
 }
@@ -31,4 +33,13 @@ width: 10px;
     bottom: 50px;
     margin-left: -15%;
     transform: rotate(-30deg);
+}
+
+.profile-container {
+padding-right: 12%;
+padding-bottom: 10%;
+}
+
+.background-image {
+background-size: cover;
 }

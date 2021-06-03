@@ -14,6 +14,8 @@ import linkedin from "./img/linkedin.png";
 import { Row, Col } from 'reactstrap';
 import './css/Skills.css';
 import './css/Resume.css';
+import background from './img/background-image.svg';
+import './css/About.css';
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -36,9 +38,8 @@ export class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="background-image"style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundAttachment:'fixed' }}>
         <Navbar/>
-        <Header/>
         <About/>
           
           <Row>
@@ -81,8 +82,8 @@ Guld. My duties were picking and packing orders." />
             <Skills75
               skillsName75="C#"
             />
-            <Skills
-              skillsName="SQL" />
+            <Skills75
+              skillsName75="SQL" />
           </Col>
         </Row>
         <PicSeperator />
@@ -116,7 +117,8 @@ Guld. My duties were picking and packing orders." />
         </Row>
           
         <Footer />
-      </div>
+        </div>
+
     );
   }
 }
