@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CVpage/static/css/main.ec000262.chunk.css",
+    "main.css": "/CVpage/static/css/main.2f44cb7b.chunk.css",
     "main.js": "/CVpage/static/js/main.3a1228b1.chunk.js",
     "main.js.map": "/CVpage/static/js/main.3a1228b1.chunk.js.map",
     "runtime-main.js": "/CVpage/static/js/runtime-main.5b6ab4a0.js",
@@ -9,10 +9,10 @@
     "static/js/2.1133e450.chunk.js": "/CVpage/static/js/2.1133e450.chunk.js",
     "static/js/2.1133e450.chunk.js.map": "/CVpage/static/js/2.1133e450.chunk.js.map",
     "index.html": "/CVpage/index.html",
-    "precache-manifest.1b330b2e75d81b3e0846cf8fda72d2e5.js": "/CVpage/precache-manifest.1b330b2e75d81b3e0846cf8fda72d2e5.js",
+    "precache-manifest.e2097eb62bf067cce83f893a6727d719.js": "/CVpage/precache-manifest.e2097eb62bf067cce83f893a6727d719.js",
     "service-worker.js": "/CVpage/service-worker.js",
     "static/css/2.a5f06b7f.chunk.css.map": "/CVpage/static/css/2.a5f06b7f.chunk.css.map",
-    "static/css/main.ec000262.chunk.css.map": "/CVpage/static/css/main.ec000262.chunk.css.map",
+    "static/css/main.2f44cb7b.chunk.css.map": "/CVpage/static/css/main.2f44cb7b.chunk.css.map",
     "static/js/2.1133e450.chunk.js.LICENSE.txt": "/CVpage/static/js/2.1133e450.chunk.js.LICENSE.txt",
     "static/media/flower-break.png": "/CVpage/static/media/flower-break.d9ddbb92.png",
     "static/media/github.png": "/CVpage/static/media/github.e45ebd52.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.5b6ab4a0.js",
     "static/css/2.a5f06b7f.chunk.css",
     "static/js/2.1133e450.chunk.js",
-    "static/css/main.ec000262.chunk.css",
+    "static/css/main.2f44cb7b.chunk.css",
     "static/js/main.3a1228b1.chunk.js"
   ]
 }
