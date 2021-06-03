@@ -11,12 +11,28 @@ import Contact from './Contact.js';
 import github from "./img/github.png";
 import letter from "./img/letter.png";
 import linkedin from "./img/linkedin.png";
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import './css/Skills.css';
 import './css/Resume.css';
 
 export class Home extends Component {
   static displayName = Home.name;
+
+  numberOfRepos = 0;
+
+  constructor() {
+    super();
+    this.state = {
+      numberOfRepos: 0
+    }
+  }
+
+  componentDidMount() {
+    fetch('https://api.github.com/users/vivitraan/repos')
+      .then(response => response.json())
+      .then(json =>
+      { this.setState({ numberOfRepos: json.length }) });
+  }
 
   render() {
     return (
@@ -28,7 +44,7 @@ export class Home extends Component {
           
           <Row>
           <Col className="work-column"lg="6" md="12">
-            <h2 className="mb-5 work-title">Work Experience</h2>
+            <h2 className="mb-5 work-title" id="resume">Work Experience</h2>
         <Resume
           resumeTitle="Store Employee / Flying Tiger"
               resumeTime="November 2020 - March 2020"
@@ -75,10 +91,12 @@ Guld. My duties were picking and packing orders." />
           <Col lg="4">
             <Contact
               link="https://github.com/ViviTraan"
-          img={github}
-          title="Github"
-          description="See all my coding projects."
+              img={github}
+              title="Github"
+              description="See all my coding projects."
+              
             />
+            <p>Number of repos: {this.state.numberOfRepos}</p>
             </Col>
           <Col lg="4">
             <Contact
