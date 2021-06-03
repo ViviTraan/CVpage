@@ -1,7 +1,9 @@
-﻿.contact-container {
-    margin-top:5%;
+﻿@import url(//fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap);
+
+.contact-container {
+margin-top:5%;
 text-align:center;
-padding: 6% 10% 10%;
+padding: 6% 10% 0%;
 }
 
 .feature-title {
@@ -15,4 +17,8 @@ line-height:1,5rem;
 
 .row-contact {
 margin: 0;
+}
+
+.repos {
+text-align:center;
 }

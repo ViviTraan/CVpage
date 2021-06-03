@@ -40,7 +40,6 @@ export class Home extends Component {
         <Navbar/>
         <Header/>
         <About/>
-        <PicSeperator />
           
           <Row>
           <Col className="work-column"lg="6" md="12">
@@ -61,9 +60,9 @@ export class Home extends Component {
               resumeDescription="Worked for staffing company Lernia at E-commerce for Guldfynd, Albrekts Guld & Hallbergs
 Guld. My duties were picking and packing orders." />
             <Resume
-              resumeTitle="Cashier / Gekås AB"
+              resumeTitle="Cashier / GekÃ¥s AB"
               resumeTime=" September 2015 - September 2017"
-              resumeDescription="As a Cashier at Gekås my head responsibility was in the cashier line. I handled the payment for the store items, checked so the customers had a good experience in the warehouse." />
+              resumeDescription="As a Cashier at GekÃ¥s my head responsibility was in the cashier line. I handled the payment for the store items, checked so the customers had a good experience in the warehouse." />
           </Col>
           <Col lg="6" md="12">
             <h2 className="mb-5 skills-title">Skills</h2>
@@ -94,9 +93,8 @@ Guld. My duties were picking and packing orders." />
               img={github}
               title="Github"
               description="See all my coding projects."
-              
             />
-            <p>Number of repos: {this.state.numberOfRepos}</p>
+            <p className="repos">Number of repos: {this.state.numberOfRepos}</p>
             </Col>
           <Col lg="4">
             <Contact

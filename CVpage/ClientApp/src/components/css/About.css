@@ -1,9 +1,12 @@
-﻿#About {
+﻿@import url(//fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap);
+
+#About {
 padding-bottom: 0;
 }
 
 .about-container {
-max-width:50%;
+    max-width: 50%;
+    margin-bottom:10%;
 }
 
 .about-title {
@@ -21,4 +24,11 @@ float:right;
 
 about-image {
 width: 10px;
+}
+
+.about-sunflower {
+    position:relative;
+    bottom: 50px;
+    margin-left: -15%;
+    transform: rotate(-30deg);
 }

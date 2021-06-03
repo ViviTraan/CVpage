@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./css/About.css";
 import "./css/Fonts.css";
 import about from './img/about-signature.png';
+import sunflower from './img/sunflower.png'
 
 
 export default class About extends Component {
@@ -23,10 +24,13 @@ export default class About extends Component {
               <br />
                 <br />  
                 So here I am, finally found my path.</p>
-              <div className="about-signature"><img className="about-image"src={about}/></div>
+              <div className="about-signature"><img className="about-image" src={about} /></div>
+              <img className="about-sunflower" src={sunflower} style={{ width: "200px" }} />
             </div>
           </div>
+         
         </div>
+        
       </section>
     );
   }
