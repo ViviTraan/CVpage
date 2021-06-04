@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/CVpage/static/css/main.d431c53a.chunk.css",
-    "main.js": "/CVpage/static/js/main.d90d69a9.chunk.js",
-    "main.js.map": "/CVpage/static/js/main.d90d69a9.chunk.js.map",
+    "main.css": "/CVpage/static/css/main.b275b395.chunk.css",
+    "main.js": "/CVpage/static/js/main.4bd43852.chunk.js",
+    "main.js.map": "/CVpage/static/js/main.4bd43852.chunk.js.map",
     "runtime-main.js": "/CVpage/static/js/runtime-main.5b6ab4a0.js",
     "runtime-main.js.map": "/CVpage/static/js/runtime-main.5b6ab4a0.js.map",
     "static/css/2.a5f06b7f.chunk.css": "/CVpage/static/css/2.a5f06b7f.chunk.css",
-    "static/js/2.44125932.chunk.js": "/CVpage/static/js/2.44125932.chunk.js",
-    "static/js/2.44125932.chunk.js.map": "/CVpage/static/js/2.44125932.chunk.js.map",
+    "static/js/2.d94369c0.chunk.js": "/CVpage/static/js/2.d94369c0.chunk.js",
+    "static/js/2.d94369c0.chunk.js.map": "/CVpage/static/js/2.d94369c0.chunk.js.map",
     "index.html": "/CVpage/index.html",
-    "precache-manifest.26cec1804b1c5c12ddf138bf84b579b1.js": "/CVpage/precache-manifest.26cec1804b1c5c12ddf138bf84b579b1.js",
+    "precache-manifest.c98be70746aff6760b9ea5abd5c2274d.js": "/CVpage/precache-manifest.c98be70746aff6760b9ea5abd5c2274d.js",
     "service-worker.js": "/CVpage/service-worker.js",
     "static/css/2.a5f06b7f.chunk.css.map": "/CVpage/static/css/2.a5f06b7f.chunk.css.map",
-    "static/css/main.d431c53a.chunk.css.map": "/CVpage/static/css/main.d431c53a.chunk.css.map",
-    "static/js/2.44125932.chunk.js.LICENSE.txt": "/CVpage/static/js/2.44125932.chunk.js.LICENSE.txt",
+    "static/css/main.b275b395.chunk.css.map": "/CVpage/static/css/main.b275b395.chunk.css.map",
+    "static/js/2.d94369c0.chunk.js.LICENSE.txt": "/CVpage/static/js/2.d94369c0.chunk.js.LICENSE.txt",
     "static/media/background-image.svg": "/CVpage/static/media/background-image.b2bfbe3f.svg",
     "static/media/flower-break.png": "/CVpage/static/media/flower-break.d9ddbb92.png",
     "static/media/github.png": "/CVpage/static/media/github.e45ebd52.png",
-    "static/media/letter-paper.png": "/CVpage/static/media/letter-paper.df774597.png",
     "static/media/letter.png": "/CVpage/static/media/letter.4274e6e1.png",
     "static/media/linkedin.png": "/CVpage/static/media/linkedin.ed15672f.png",
     "static/media/profile-pic.png": "/CVpage/static/media/profile-pic.966a4aaa.png",
@@ -26,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.5b6ab4a0.js",
     "static/css/2.a5f06b7f.chunk.css",
-    "static/js/2.44125932.chunk.js",
-    "static/css/main.d431c53a.chunk.css",
-    "static/js/main.d90d69a9.chunk.js"
+    "static/js/2.d94369c0.chunk.js",
+    "static/css/main.b275b395.chunk.css",
+    "static/js/main.4bd43852.chunk.js"
   ]
 }
