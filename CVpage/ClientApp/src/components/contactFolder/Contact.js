@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./css/Contact.css";
+import "./Contact.css";
 
 
 export default class Contact extends Component {
@@ -7,7 +7,7 @@ export default class Contact extends Component {
     return (<section className="white-section" id="contact">
       <div className="container-fluid contact-container">
         <div className="feature-box">
-          <a href={this.props.link} target="_blank">
+          <a href={this.props.link} target="_blank" rel="noopener noreferrer">
             <img src={this.props.img} alt={this.props.alt} style={{ height: 150}}/></a>
             <h3 className="feature-title">{this.props.title}</h3>
             <p className="feature-text">{this.props.description}</p>

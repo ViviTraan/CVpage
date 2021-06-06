@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import "./css/About.css";
-import "./css/Fonts.css";
-import about from './img/about-signature.png';
-import sunflower from './img/sunflower.png'
-import profile from './img/profile-pic.png';
+import "./About.css";
+import about from '../img/about-signature.png';
+import sunflower from '../img/sunflower.png'
+import profile from '../img/profile-pic.png';
 
 
 export default class About extends Component {
@@ -15,7 +14,7 @@ export default class About extends Component {
           <div className="row">
             <div className="col-lg-4 text-center profile-container">
               <img className="img-fluid rounded-circle mb-4" src={profile} alt="..." style={{ width: "200px" }} />
-              <h1 className="text-black fs-3 fw-bolder">Vivi Tran</h1>
+              <h1 className="text-black fs-3 fw-bolder profile-name">Vivi Tran</h1>
               <p className="text-black-50 mb-0">Upcoming Full Stack Developer</p></div>
             <div className="col-lg-8">
               <h2 className="about-title">Hi! My name is Vivi..</h2>
@@ -29,8 +28,8 @@ export default class About extends Component {
               <br />
                 <br />  
                 So here I am, finally found my path.</p>
-              <div className="about-signature"><img className="about-image" src={about} /></div>
-              <img className="about-sunflower" src={sunflower} style={{ width: "200px" }} />
+              <div className="about-signature"><img className="about-image" src={about} alt="..."/></div>
+              <img className="about-sunflower" src={sunflower} style={{ width: "200px" }} alt="..."/>
             </div>
           </div>
          

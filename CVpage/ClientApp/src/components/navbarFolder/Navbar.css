@@ -1,0 +1,48 @@
+﻿@import url(//fonts.googleapis.com/css2?family=Abel&display=swap);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-item {
+    border: 1px solid black;
+    padding: 0% 2%;
+    margin: 5% 0% 0% 5%;
+    box-shadow: 5px 5px grey;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    background-color:white;
+}
+
+.navbar-container {
+    margin-right: 0%;
+}
+
+.home-button {
+padding: 0% 3%;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+    padding-bottom: 2%;
+    }
+}
+
+@media only screen and ( max-width: 1210px) {
+    .navbar {
+        padding-bottom: 1%;
+    }
+    .navbar-container {
+    margin-left:0%;
+    }
+}

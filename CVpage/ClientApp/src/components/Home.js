@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.js';
-import Header from './Header.js';
-import About from './About.js';
-import Resume from './Resume.js';
-import Skills from './Skills.js';
-import Skills75  from './Skills/Skills75';
+import Navbar from './navbarFolder/Navbar.js';
+import About from './aboutFolder/About';
+import Resume from './resumeFolder/Resume.js';
+import Skills from './skillsFolder/Skills';
+import Skills75 from './skillsFolder/Skills75';
 import Footer from './Footer.js';
-import PicSeperator from './PicSeperator.js';
-import Contact from './Contact.js';
+import PicSeperator from './picSeperatorFolder/PicSeperator.js';
+import Contact from './contactFolder/Contact.js';
 import github from "./img/github.png";
 import letter from "./img/letter.png";
 import linkedin from "./img/linkedin.png";
 import { Row, Col } from 'reactstrap';
-import './css/Skills.css';
-import './css/Resume.css';
+import './resumeFolder/Resume.css';
 import background from './img/background-image.svg';
-import './css/About.css';
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -65,7 +62,7 @@ Guld. My duties were picking and packing orders." />
               resumeTime=" September 2015 - September 2017"
               resumeDescription="As a Cashier at Gekås my head responsibility was in the cashier line. I handled the payment for the store items, checked so the customers had a good experience in the warehouse." />
           </Col>
-          <Col lg="6" md="12">
+          <Col lg="6" md="12" className="skills-container">
             <h2 className="mb-5 skills-title">Skills</h2>
             <Skills
               skillsName="HTML" />
