@@ -7,14 +7,20 @@ I've learned breaking down the code into many components and fetching them from 
 How to get started:
 ---
 * Download/clone repository
-* Scripts to run in project directory 
+* Scripts to run in project directory: 
+
+If your're using Visual Studio Code:
+  - <code>npm install</code> 
+
+If not skip the step above :)
   - <code>npm start</code> 
   
   Runs the app in the development mode. 
   Open http://localhost:3000 to view it in the browser.
   The page will reload if you make edits.
   You will also see any lint errors in the console.
-    - <code>npm run cypress:open</code> 
+  
+   - <code>npm run cypress:open</code> 
     
   This script opens cypress and allows you to run the test I've written. Reminder that you need to have the website up at the same time to be able to run the tests.
 
